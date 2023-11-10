@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clock.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Be on time : get live time</title>
+</head>
+
+<body>
+    <div  class="container">
+
+
+        <div onclick="" class="border-cont-yash">
+            <p onclick="callSong()" class="yash-gretting"></p>
+            <div class="live-time">
+                <span id="span"></span>
+            </div>
+
+
+            <div style="display: flex; align-items: center;cursor: pointer; " class="flex-tag-alam">
+                <p id="timer-tag" onclick="seeHereAlarmList()"><i style="font-size: 25px; margin-right: 5px;"
+                        class="fa-solid fa-bell"></i> Alarm :</p>
+                <p id="yash1"></p>
+            </div>
+            <div class="for-alarm">
+                <input type="time" id="myAlarm" class="myAlarm">
+
+                <button id="btn-setAlarm" onclick="inputTaker(),renderTodoList(),playAlarm()">Set Alarm</button>
+            </div>
+
+
+
+
+            <p id="timer-tag">Timer :</p>
+            <div class="for-timer">
+
+                <div class="box-for-timer">
+
+                    <span id="displayTimer">00:00:00:00</span>
+
+                </div>
+                <div class="box-for-play-pause-reset-btn">
+
+                    <i onclick="startWatch()" style="margin-right: 60px;margin-left: 18px;"
+                        class="fa-solid fa-circle-play"></i>
+                    <i onclick="pauseWatch()" class="fa-solid fa-circle-pause"></i> <br>
+                    <i onclick="resetWatch()" style="margin-left:73px;" class="fa-solid fa-arrows-rotate"></i>
+
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="yash-see-here">
+       </div> <br><br>
+       <div class="div" style="margin-left: -50px;margin-top: 5px;"
+       onclick="document.querySelector('.yash-see-here').style.visibility = 'hidden';
+       document.querySelector('.div').style.visibility = 'hidden';"><i class="fa-solid fa-circle-xmark"></i></div>
+    </div>
+
+    <div class="footer-yash">
+        <p style="text-align: center; margin-top: 5px;color: black;"><b>@Copyright (yash sabne)</b></p>
+        <p style="text-align: center; margin-top: 5px;color: black; margin-bottom: 10px;">My projects <a
+                style="color: black;" href="https://github.com/yashsabne">Yash Sabne</a></p>
+    </div>
+    <script src="clock.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #6868AC;
+    margin-top: 20px;
+}
+
+.container {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+ 
+.border-cont-yash {
+    border:none;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    width: 600px;
+    box-shadow: 10px 10px  15px black;
+    height: 700px;
+    /* margin-right: 100px; */
+
+}
+
+.live-time {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: 30px;
+    padding: 0px 20px 0px 20px;
+    border-left: 1px solid burlywood;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
+
+
+
+.yash-gretting {
+    margin-left: 200px;
+    margin-top: 70px;
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    /* position: relative; */
+    text-shadow: -15px 5px 20px #ced0d3;
+    transform: translate(-50%, -50%);
+    letter-spacing: 0.09em;
+    text-align: center;
+    color: #F9f1cc;
+    text-shadow: 2px 2px 0px darkblue,
+        5px 5px 0px #FFD662,
+        7px 7px 0px #FF80BF,
+        9px 9px 0px #EF5097,
+        11px 11px 0px #6868AC,
+        15px 15px 0px #90B1E0;
+        cursor: 
+        pointer;
+}
+
+.for-timer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-around;
+    
+}
+.for-timer div {
+    border: 2px solid #6868AC;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px  20px #90B1E0;
+}
+.box-for-timer {
+    width: 300px;
+    height: 140px;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box-for-play-pause-reset-btn {
+    width: 200px;
+    height: 140px;
+    
+}
+.box-for-play-pause-reset-btn i {
+    font-size: 50px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+#timer-tag {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: xx-large;
+}
+@media (max-width:500px) {
+
+    .container {
+        height: 900px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .border-cont-yash {
+        border: 0.4px solid black;
+        border-radius: 30px;
+        background-color: whitesmoke;
+        width: 400px;
+        /* visibility: ; */
+        height: 850px;
+    
+    }
+    
+    .yash-gretting {
+        margin-left: 200px;
+        text-align: center;
+        margin-top: 50px;
+        font-family: 'Calligraffitti', cursive;
+        font-weight: 700;
+        font-size: 40px;
+        /* position: relative; */
+        text-shadow: -15px 5px 20px #ced0d3;
+        transform: translate(-50%, -50%);
+        letter-spacing: 0.09em;
+        text-align: center;
+        color: #F9f1cc;
+        text-shadow: 2px 2px 0px darkblue,
+            5px 5px 0px #FFD662,
+            7px 7px 0px #FF80BF,
+            9px 9px 0px #EF5097,
+            11px 11px 0px #6868AC,
+            15px 15px 0px #90B1E0;
+            cursor: pointer;
+    }
+    .for-alarm input {
+        width: 150px;
+        height: 34px;
+        margin-right:20px;
+    
+    }
+    .yash-see-here {
+        width: 400px;
+        height: 500px;
+        background-color: #00DDEB;
+        /* margin-left: 300px; */
+    }
+    .footer-yash {
+    
+        margin-top: 600px;
+    }
+    
+}
+#span {
+    border: 2px solid #6868AC;
+    border-radius: 30px;
+    box-shadow: 7px 7px  4px cadetblue;
+    padding: 13px 13px 13px 13px;
+   
+}
+.for-alarm {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+.for-alarm input {
+    width: 200px;
+    height: 34px;
+    margin-right: 50px;
+}
+
+
+
+/* CSS */
+#btn-setAlarm {
+   
+      align-items: center;
+      background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+      border: 0;
+      border-radius: 8px;
+      box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      display: flex;
+      font-family: Phantomsans, sans-serif;
+      font-size: 20px;
+      justify-content: center;
+      line-height: 1em;
+      max-width: 100%;
+      min-width: 140px;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    
+    .yash-see-here {
+        width: 300px;
+        height: 700px;
+        background-color: white;
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+#yash1 {
+    margin-top: 35px;
+    margin-left: 10px;
+}
+#your-works {
+    margin-left: 30px;
+    margin-top:35px;
+    display: flex;
+    /* visibility: ; */
+    align-items: center;
+
+}
+.button-31 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    padding: 6px 8px 6px 8px;
+    line-height: 1em;
+}
+#your-works span li {
+    list-style-type: square;
+}
