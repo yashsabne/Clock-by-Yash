@@ -1,4 +1,4 @@
-   alert("For now alarm feature is available for hours only not minutes:")
+   alert("For now alarm feature is not working due to some issue:")
    
    document.querySelector('.div').style.visibility = 'hidden';
    document.querySelector('.yash-see-here').style.visibility = 'hidden';
